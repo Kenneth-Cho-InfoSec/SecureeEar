@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="App_About">關於
+    </string>
+    <string name="App_Action_Delete_Message">確定删除嗎？
+    </string>
+    <string name="App_Action_Share_Size_Message">未選中檔案或超過9張
+    </string>
+    <string name="App_Action_Share_Type_Message">視頻檔案分享只能單選此檔案
+    </string>
+    <string name="App_Agree_And_Continue">同意並繼續
+    </string>
+    <string name="App_Button_Cancel">取消
+    </string>
+    <string name="App_Button_OK">確定
+    </string>
+    <string name="App_Connect_Wifi_Dialog">連接產品WiFi
+    </string>
+    <string name="App_Device_Battert">設備電量
+    </string>
+    <string name="App_Device_Info">設備資訊
+    </string>
+    <string name="App_Exit_Title">退出
+    </string>
+    <string name="App_Exit_Title_Content">確定要退出嗎？
+    </string>
+    <string name="App_Go_Setting">前往
+    </string>
+    <string name="App_Goto_WifiSetting">連接產品WiFi
+    </string>
+    <string name="App_Goto_WifiSetting_Now">立即連接
+    </string>
+    <string name="App_GuideView_Click">我知道了
+    </string>
+    <string name="App_Gyroscope_Off">廣屏鏡頭
+    </string>
+    <string name="App_Gyroscope_On">聚焦鏡頭
+    </string>
+    <string name="App_Lable_Album">相册
+    </string>
+    <string name="App_Lable_Ear_Left">左耳
+    </string>
+    <string name="App_Lable_Ear_Right">右耳
+    </string>
+    <string name="App_Permission_Title">需要手動允許應用使用“讀寫許可權”來使用此功能
+    </string>
+    <string name="App_Problem_Answer1">“①手機掃描說明書上二維碼，或者在\\App Store\\ \\Google Play\\蒐索“UseeEar”下載App並安裝App；\10        ②長按電源按鈕3秒開機；\10        ③打開UseeEar App；\10        ④跳轉至手機設定選擇無線局域網介面連接產品UseeEar-xxxx；\10        ⑤返回“UseeEar App”，再次點擊房屋圖標即可使用。 “
+    </string>
+    <string name="App_Problem_Answer2">此時需再次點擊該設備WiFi，在彈窗中選擇\\不保存\\，斷開連接後，再連接該WIFi，稍後會有彈窗：\\使用此網絡無法訪問互聯網。 要繼續保持連接嗎？\\， 選擇\\是\\，即可連接WiFi。
+    </string>
+    <string name="App_Problem_Answer3">螺紋耳勺對準鏡頭旋轉安裝，掐住耳勺受力點旋轉取出。
+    </string>
+    <string name="App_Problem_Answer4">產品鏡頭設有LED冷光燈，不晃眼不炫光，產品採用雙重溫控系統，使用過程中，耳鏡部分無感溫度25°，機身部分掌心溫度32°，故產品運作過程中發生輕微發熱屬正常現象，品質安全，可放心使用。
+    </string>
+    <string name="App_Problem_Answer5">“【連接產品WiFi時提示網絡拒絕加入】\10        確認周圍是否有其他手機連接了該產品WiFi，開機重新啟動再次連接即可。\10        【連接產品WiFi後，App沒有影像】\10        IOS系統：\10        前往手機設定，找到&apos;UseeEar&apos;App點擊進入，找到本地網絡並打開該選項，返回app，重新連接即可正常使用。\10        Android:\10        產品開機狀態下，前往手機設定，找到&apos;UseeEar-xxxx&apos;，開頭的WiFi忘記、不保存或删除該WiFi，重新連接該WiFi即可使用。\10        如果連接該WiFi，手機出現彈窗“使用該網絡無法訪問互聯網，是否要繼續保持連接，請選擇”是“，即可正常使用。“”；“
+    </string>
+    <string name="App_Problem_Answer6">卸載App，重新下載安裝，用酒精棉簽擦拭清潔產品鏡頭，如以上操作都不能解决該問題，請與賣家聯系。
+    </string>
+    <string name="App_Problem_Question1">產品使用流程
+    </string>
+    <string name="App_Problem_Question2">“設定”中采耳設備WIFi明明顯示已連接，進入采耳頁面卻無法查看視頻
+    </string>
+    <string name="App_Problem_Question3">采耳工具如何正確安裝采耳配件的使用方法
+    </string>
+    <string name="App_Problem_Question4">使用過程機身發熱
+    </string>
+    <string name="App_Problem_Question5">WiFi連接异常
+    </string>
+    <string name="App_Problem_Question6">App顯示异常（畫面模糊/花屏/黑屏）
+    </string>
+    <string name="App_Representations_And_Terms">聲明與條款
+    </string>
+    <string name="App_Setting">設定
+    </string>
+    <string name="App_Setting_Album">產品相册
+    </string>
+    <string name="App_Setting_Problem">常見問題
+    </string>
+    <string name="App_Storage_Permission_Content">拍照、錄製視頻、查看相册檔案，需要使用照片許可權，請放心開啟照片許可權
+    </string>
+    <string name="App_Take_Photo">拍照
+    </string>
+    <string name="App_Take_Video">視頻
+    </string>
+    <string name="App_Terms_Of_Service">使用者協定
+    </string>
+    <string name="App_User_App_Version">版本
+    </string>
+    <string name="App_User_Language">語言
+    </string>
+    <string name="App_User_Play">使用教程
+    </string>
+    <string name="App_User_Privacy">隱私協定
+    </string>
+    <string name="App_User_Service">服務協定
+    </string>
+    <string name="App_Using_Tips">請閱讀我們的隱私政策。 點擊“同意並繼續”接受使用者協定
+    </string>
+    <string name="App_Using_content">“歡迎使用UseeEar。我們將嚴格遵守相關法律法規和隱私政策以保護您的個人資訊。\10        為提供基本服務，需要調用你的如下許可權或功能：\10        必要許可權（用於該應用的基本服務和功能）\10        ·存儲：\10        用於數據數據合成圖片或視頻保存，及歷史資料展示\10        ·獲取位置資訊：\10        用於設備快連及Wi-Fi清單等功能\10        如果你不同意調用以上必要許可權或功能，可能導致本應用無法正常使用，你可以選擇退出本應用/前往“設定“”-“”許可權管理“”關閉授權已終止服務“
+    </string>
+    <string name="Device_Battery_Close">關閉
+    </string>
+    <string name="Device_Battery_Lower">電池電量不足
+    </string>
+    <string name="Device_Battery_TurnOff">馬上關機
+    </string>
+    <string name="Device_Battery_Warning">僅剩15%電量
+    </string>
+    <string name="Device_Battery_Warning2">僅剩5%電量
+    </string>
+    <string name="Device_Info">設備資訊：
+    </string>
+    <string name="Device_Info_Remain_Electricity">剩餘電量：
+    </string>
+    <string name="Device_Info_Remain_Time">剩餘時間：
+    </string>
+    <string name="Device_Status_Connected">已連接
+    </string>
+    <string name="Device_Status_Connecting">連接中
+    </string>
+    <string name="Device_Status_UnConnect">未連接
+    </string>
+    <string name="Device_Status_UnConnected_Click">點擊連接設備
+    </string>
+    <string name="File_Bottombar_Label_Delete">删除
+    </string>
+    <string name="File_Bottombar_Label_Share">分享
+    </string>
+    <string name="File_Label_FileList_Empty">檔案清單為空
+    </string>
+    <string name="File_Manager_Edit_Select_All">全選
+    </string>
+    <string name="File_Manager_Edit_Unselect_All">全不選
+    </string>
+    <string name="File_Manager_No_Select_File">未選中檔案
+    </string>
+    <string name="File_Show_Manager_Title_Select">已選擇%1$s項
+    </string>
+    <string name="File_Show_Manager_Title_Select_IOS">已選擇%d項
+    </string>
+    <string name="License_Device_Illegal">不可用，請連接設備！
+    </string>
+    <string name="MJRefresh_AutoFooterIdleText">點擊或上拉加載更多
+    </string>
+    <string name="MJRefresh_AutoFooterNoMoreDataText">已經全部加載完畢
+    </string>
+    <string name="MJRefresh_AutoFooterRefreshingText">正在加載更多的數據…
+    </string>
+    <string name="MJRefresh_HeaderDateTodayText">今天
+    </string>
+    <string name="MJRefresh_HeaderIdleText">下拉可以重繪
+    </string>
+    <string name="MJRefresh_HeaderLastTimeText">最後更新：
+    </string>
+    <string name="MJRefresh_HeaderNoneLastDateText">無記錄
+    </string>
+    <string name="MJRefresh_HeaderPullingText">鬆開立即重繪
+    </string>
+    <string name="MJRefresh_HeaderRefreshingText">正在重繪數據中…
+    </string>
+    <string name="Refuse_Permission_And_LocalNetwork">請在設定-UseeEar-本地網絡選項中，允許訪問本地網絡
+    </string>
+    <string name="Refuse_Permission_And_ignore">忽略
+    </string>
+    <string name="Settings_Label_About_Firmware">固件
+    </string>
+    <string name="Settings_Label_About_ProductName">產品名稱
+    </string>
+    <string name="VideoPlayer_MSG_16x9">0.672916666666667
+    </string>
+    <string name="VideoPlayer_MSG_4x3">0.16875
+    </string>
+    <string name="VideoPlayer_MSG_Bestfit">最佳適應
+    </string>
+    <string name="VideoPlayer_MSG_Default_Current_Time">0
+    </string>
+    <string name="VideoPlayer_MSG_Fast_Forward">快進
+    </string>
+    <string name="VideoPlayer_MSG_Fast_Rewind">快退
+    </string>
+    <string name="VideoPlayer_MSG_Fill">填充
+    </string>
+    <string name="VideoPlayer_MSG_Fit_Horizontal">水准適應
+    </string>
+    <string name="VideoPlayer_MSG_Fit_Vertical">垂直適應
+    </string>
+    <string name="VideoPlayer_MSG_Not_Exist">抱歉！ 此視頻不存在
+    </string>
+    <string name="VideoPlayer_MSG_Open_VideoFile_Failed">打開文件失敗
+    </string>
+    <string name="VideoPlayer_MSG_Original">居中
+    </string>
+    <string name="VideoPlayer_MSG_Play_Err">該視頻無法播放
+    </string>
+    <string name="VideoPlayer_MSG_Replaying_For_History">是否從上次停止的位置恢復播放？
+    </string>
+    <string name="VideoPlayer_MSG_Replaying_Title">重播視頻
+    </string>
+    <string name="VideoPlayer_Subtitleencode_Choose_Text">字幕編碼
+    </string>
+    <string name="VideoPlayer_Subtitleencode_Saved_Text">設定編碼需重新播放才能生效，是否繼續？
+    </string>
+    <string name="VideoView_Label_Audio">音軌
+    </string>
+    <string name="VideoView_Label_Brightness">亮度
+    </string>
+    <string name="VideoView_Label_Subtitle">字幕
+    </string>
+    <string name="VideoView_Label_Volume">音量
+    </string>
+    <string name="Video_Record_Wirte_Error_Message">檔案寫入出錯
+    </string>
+    <string name="app_name">UseeEar
+    </string>
+</resources>

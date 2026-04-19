@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.i4season.bkCamera.uirelated.other.view.CameraScroller
+        android:id="@+id/camera_scroller"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/camerashow_take_photo_tv"
+            android:text="拍照"
+            style="@style/cameraScrollerBar"/>
+        <TextView
+            android:id="@+id/camerashow_change_to_video_model"
+            android:text="视频"
+            style="@style/cameraScrollerBar"/>
+    </com.i4season.bkCamera.uirelated.other.view.CameraScroller>
+</LinearLayout>

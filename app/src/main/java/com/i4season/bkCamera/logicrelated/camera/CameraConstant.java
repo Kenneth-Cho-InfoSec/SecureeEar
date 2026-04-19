@@ -1,0 +1,40 @@
+package com.i4season.bkCamera.logicrelated.camera;
+
+public class CameraConstant {
+    public static final int BAISHIWEI_PROGRAMME = 3;
+    public static final int DEVICE_CONNECT = 32;
+    public static final int DEVICE_ILLEGAL = 1;
+    public static final int DEVICE_MATCH_ERROR = 2;
+    public static final int DEVICE_NOT_CONNECT = 4;
+    public static final int DEVICE_OFFLINE = 31;
+    public static final int DEVICE_ONLINE = 33;
+    public static final int DEVICE_ONLINE_ERROR = 3;
+    public static final int EVENT_BATTERY_CHARGING = 9;
+    public static final int EVENT_BITMAP = 2;
+    public static final int EVENT_DEVICE_INFO_CHANGE = 13;
+    public static final int EVENT_FW_INFO = 1;
+    public static final int EVENT_GYROCOPE = 4;
+    public static final int EVENT_KEY_PHOTO_RECORDER = 5;
+    public static final int EVENT_KEY_ZOOM = 6;
+    public static final int EVENT_LONG_TIMEPROMPT = 11;
+    public static final int EVENT_ONLINE_OFFLINE_CHANGE = 12;
+    public static final int EVENT_RESOLUTION = 7;
+    public static final int EVENT_SAVE_ALL_PHOTO = 14;
+    public static final int EVENT_TAKE_PHOTO_RECORDERO = 3;
+    public static final int EVENT_THRESHOLD = 8;
+    public static boolean GYROSCOPE_SWITCH = true;
+    public static final int I4SEASON_PROGRAMME = 1;
+    public static final int I4SEASON_PROGRAMME_NEW = 5;
+    public static final int KEY_TYPE_RECODER_END = 22;
+    public static final int KEY_TYPE_RECODE_BEGIN = 21;
+    public static final int KEY_TYPE_TAKEPHOTO = 20;
+    public static final int KEY_TYPE_ZOOM_MAGNIFY = 23;
+    public static final int KEY_TYPE_ZOOM_SMALL = 24;
+    public static final int LEXIN_PROGRAMME = 2;
+    public static boolean LICENSE_CHECK = true;
+    public static final int LICENSE_CHECK_ERROR = 0;
+    public static String LOCAL_LIC = "LOCAL_LIC";
+    public static final int NONE_PROGRAMME = 0;
+    public static final int OTG_PROGRAMME = 4;
+    public static String RAMDOM_UUID = "RAMDOM_UUID";
+}

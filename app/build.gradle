@@ -1,0 +1,43 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+	namespace "com.i4season.i4season_camera"
+    compileSdkVersion 33
+
+    defaultConfig {
+        applicationId 'com.i4season.i4season_camera'
+        minSdkVersion 21
+        //noinspection ExpiringTargetSdkVersion,ExpiredTargetSdkVersion
+        targetSdkVersion 33
+        versionCode 44
+        versionName "1.0.062"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    buildFeatures {
+        buildConfig = false
+    }
+}
+
+dependencies {
+    // TODO: dependencies
+}

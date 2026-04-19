@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UseeEar
+    </string>
+    <string name="App_Exit_Title">退出
+    </string>
+    <string name="App_Exit_Title_Content">确定要退出吗?
+    </string>
+    <string name="App_Button_Cancel">取消
+    </string>
+    <string name="App_Button_OK">确定
+    </string>
+    <string name="App_Button_Return">返回
+    </string>
+    <string name="App_CenterProgress_Loading">正在加载……
+    </string>
+    <string name="App_GuideView_Click">我知道了
+    </string>
+    <string name="App_Permission_Title">需要手动允许应用使用&quot;读写权限&quot; 来使用此功能
+    </string>
+    <string name="App_Permission_Title2">需要手动允许应用使用&quot;录音权限&quot; 来使用此功能
+    </string>
+    <string name="App_Go_Setting">前往
+    </string>
+    <string name="App_Representations_And_Terms">声明与条款
+    </string>
+    <string name="App_Terms_Of_Service">用户协议
+    </string>
+    <string name="App_Agree_And_Continue">同意并继续
+    </string>
+    <string name="App_Using_Tips">请阅读我们的隐私政策。点击“同意并继续”接受用户协议
+    </string>
+    <string name="App_Using_content">欢迎使用UseeEar。我们将严格遵守相关法律法规和隐私政策以保护您的个人信息。\10        为提供基本服务，需要调用你的如下权限或功能：\10        必要权限（用于该应用的基本服务和功能）\10        ·存储:\10        用于数据数据合成图片或视频保存,及历史数据展示\10        ·获取位置信息:\10        用于设备快连及Wi-Fi列表等功能\10        如果你不同意调用以上必要权限或功能，可能导致本应用无法正常使用，你可以选择退出本应用/前往“设置&quot;-&quot;权限管理&quot;关闭授权已终止服务
+    </string>
+    <string name="File_Bottombar_Label_Share">分享
+    </string>
+    <string name="File_Bottombar_Label_Delete">删除
+    </string>
+    <string name="File_Label_FileList_Empty">文件列表为空
+    </string>
+    <string name="File_Manager_No_Select_File">未选中文件
+    </string>
+    <string name="File_Manager_Edit_Select_All">全选
+    </string>
+    <string name="File_Manager_Edit_Unselect_All">不全选
+    </string>
+    <string name="File_Show_Manager_Title_Select">已选择 %1$s 项
+    </string>
+    <string name="App_Action_Share_Size_Message">未选中文件或超过9张
+    </string>
+    <string name="App_Action_Share_Type_Message">视频文件分享只能单选此文件
+    </string>
+    <string name="App_Action_Delete_Message">确定删除这些文件吗？
+    </string>
+    <string name="PDF_Guide_Next">下一步
+    </string>
+    <string name="PDF_Guide_Pre">上一步
+    </string>
+    <string name="Device_Status_UnConnect">去连接
+    </string>
+    <string name="Device_Status_Connecting">连接中
+    </string>
+    <string name="Device_Status_Connected">已连接
+    </string>
+    <string name="Device_Status_UnConnected_Click">点击连接设备
+    </string>
+    <string name="Device_Info_Remain_Electricity">剩余电量
+    </string>
+    <string name="Device_Info_Remain_Time">剩余时间
+    </string>
+    <string name="App_Setting_Album">产品相册
+    </string>
+    <string name="App_Setting_Problem">常见问题
+    </string>
+    <string name="App_User_Language">语言
+    </string>
+    <string name="App_User_Cache">清除缓存
+    </string>
+    <string name="App_User_Service">服务协议
+    </string>
+    <string name="App_User_Privacy">隐私协议
+    </string>
+    <string name="App_User_App_Version">版本
+    </string>
+    <string name="Settings_Label_About_Firmware">固件
+    </string>
+    <string name="Settings_Label_About_ProductName">产品名称
+    </string>
+    <string name="App_Take_Photo">拍照
+    </string>
+    <string name="App_Take_Video">视频
+    </string>
+    <string name="App_Album">照片
+    </string>
+    <string name="App_Gyroscope_On">聚焦镜头
+    </string>
+    <string name="App_Gyroscope_Off">广屏镜头
+    </string>
+    <string name="App_Lable_Album">相册
+    </string>
+    <string name="App_Goto_WifiSetting">连接产品 Wi-Fi
+    </string>
+    <string name="App_Goto_WifiSetting_Now">立即连接
+    </string>
+    <string name="Device_Battery_Lower">电池电量不足
+    </string>
+    <string name="Device_Battery_Warning">仅剩15%电量
+    </string>
+    <string name="Device_Battery_Warning2">仅剩5%电量
+    </string>
+    <string name="Device_Battery_TurnOff">马上关机
+    </string>
+    <string name="Device_Battery_Close">关闭
+    </string>
+    <string name="License_Device_Illegal">不可用，请连接设备！
+    </string>
+    <string name="App_Device_Time">分钟
+    </string>
+    <string name="App_Lable_Ear_Left">左耳
+    </string>
+    <string name="App_Lable_Ear_Right">右耳
+    </string>
+    <string name="App_User_Play">使用教程
+    </string>
+    <string name="Device_Status_GoConnect">去连接
+    </string>
+    <string name="Guide_Skip">跳过引导
+    </string>
+    <string name="Guide_Know">知道了
+    </string>
+    <string name="Guide_User_Play_Notice">首次使用前，建议先观看操作视频!
+    </string>
+    <string name="Guide_Connect_Notice">点击去连接，跳转手机WIFI设置页面找到“UseeEar-xxxx”的WIFI,点击连接。
+    </string>
+    <string name="Guide_Online_Camera_Notice">点击房屋按钮，即可进入可视界面
+    </string>
+    <string name="App_Problem_Pickear">采耳棒
+    </string>
+    <string name="App_Problem_Accessories">配件
+    </string>
+    <string name="App_Problem_Other">其它
+    </string>
+    <string name="App_Device_Info">设备信息
+    </string>
+    <string name="App_Device_Battert">设备电量
+    </string>
+    <string name="App_Connect_Wifi_Dialog">连接产品WiFi
+    </string>
+    <string name="App_Setting">设置
+    </string>
+    <string name="App_User_Websit">官方网站
+    </string>
+    <string name="Dialog_Preemptive_Port">当前设备被其他手机占用，是否继续连接？
+    </string>
+</resources>

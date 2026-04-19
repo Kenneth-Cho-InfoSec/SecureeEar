@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="App_Action_Delete_Message">このファイルを削除しますか？
+    </string>
+    <string name="App_Action_Share_Size_Message">ファイルが選択されていないか、9つを超えています
+    </string>
+    <string name="App_Action_Share_Type_Message">動画の共有は一つしか選択できません
+    </string>
+    <string name="App_Agree_And_Continue">同意して続ける
+    </string>
+    <string name="App_Album">写真
+    </string>
+    <string name="App_Button_Cancel">キャンセル
+    </string>
+    <string name="App_Button_OK">もちろん
+    </string>
+    <string name="App_Button_Return">戻る
+    </string>
+    <string name="App_CenterProgress_Loading">読み込み中……
+    </string>
+    <string name="App_Connect_Wifi_Dialog">コネクテッド製品 Wi-Fi
+    </string>
+    <string name="App_Device_Battert">デバイスのバッテリー
+    </string>
+    <string name="App_Device_Info">デバイス情報
+    </string>
+    <string name="App_Device_Time">分
+    </string>
+    <string name="App_Exit_Title">終了
+    </string>
+    <string name="App_Exit_Title_Content">終了してもよろしいでしょうか？
+    </string>
+    <string name="App_Go_Setting">次へ
+    </string>
+    <string name="App_Goto_WifiSetting">コネクテッド製品 Wi-Fi
+    </string>
+    <string name="App_Goto_WifiSetting_Now">今すぐ接続してください
+    </string>
+    <string name="App_GuideView_Click">なるほど
+    </string>
+    <string name="App_Gyroscope_Off">広角レンズ
+    </string>
+    <string name="App_Gyroscope_On">集束レンズ
+    </string>
+    <string name="App_Lable_Album">フォトアルバム
+    </string>
+    <string name="App_Lable_Ear_Left">左の耳
+    </string>
+    <string name="App_Lable_Ear_Right">右耳
+    </string>
+    <string name="App_Permission_Title">この機能を使用するには、アプリに「読み取りおよび書き込み権限」の使用を手動で許可する必要があります。
+    </string>
+    <string name="App_Permission_Title2">この機能を使用するには、アプリに「録音許可」の使用を手動で許可する必要があります
+    </string>
+    <string name="App_Problem_Accessories">アクセサリー
+    </string>
+    <string name="App_Problem_Answer2">このとき、デバイスの WiFi を再度クリックし、ポップアップ ウィンドウで [保存しない] を選択し、接続を切断してから、Wi-Fi に接続する必要があります。後でポップアップ ウィンドウが表示されます。このネットワークを使用してインターネットにアクセスすることはできません。
+    </string>
+    <string name="App_Problem_Answer3">ネジ付きイヤースプーンをレンズに合わせて回転させ、イヤースプーンのストレスポイントをつまんで回転させて外します。
+    </string>
+    <string name="App_Problem_Answer6">アプリをアンインストールし、再ダウンロードしてインストールし、アルコール綿で製品のレンズを拭いて掃除してください。上記の操作で問題が解決しない場合は、販売者にお問い合わせください。
+    </string>
+    <string name="App_Problem_Other">他の
+    </string>
+    <string name="App_Problem_Pickear">耳かき棒
+    </string>
+    <string name="App_Problem_Question1">製品の使用プロセス
+    </string>
+    <string name="App_Problem_Question2">「設定」の耳かき器のWi-Fiは明らかに接続されているのですが、耳かきのページに入ると動画が見られません。
+    </string>
+    <string name="App_Problem_Question3">耳かきツールの正しい取り付け方と耳かきアクセサリの使い方
+    </string>
+    <string name="App_Problem_Question4">使用中に本体が熱くなります
+    </string>
+    <string name="App_Problem_Question5">Wi-Fi接続異常
+    </string>
+    <string name="App_Problem_Question6">アプリの表示に異常がある（画面がぼやける/画面が歪む/画面が真っ暗）
+    </string>
+    <string name="App_Representations_And_Terms">免責事項と規約
+    </string>
+    <string name="App_Setting">設定
+    </string>
+    <string name="App_Setting_Album">アルバム
+    </string>
+    <string name="App_Setting_Problem">よくある問題
+    </string>
+    <string name="App_Take_Photo">写真
+    </string>
+    <string name="App_Take_Video">ビデオ
+    </string>
+    <string name="App_Terms_Of_Service">ユーザー規約
+    </string>
+    <string name="App_User_App_Version">バージョン
+    </string>
+    <string name="App_User_Language">言語
+    </string>
+    <string name="App_User_Play">チュートリアル
+    </string>
+    <string name="App_User_Privacy">プライバシー規約
+    </string>
+    <string name="App_User_Service">役務契約
+    </string>
+    <string name="App_User_Websit">公式ウェブサイト
+    </string>
+    <string name="App_Using_Tips">プライバシーポリシーをよく読み、理解したうえで「同意して続ける」をタップしてください
+    </string>
+    <string name="App_Using_content">UseeEarへようこそ。当社は、お客様の個人情報を保護するために、関連する法律、規制およびプライバシーポリシーを厳格に遵守します。\10 基本的なサービスを提供するには、次の権限または関数を呼び出す必要があります。\10 必要な権限 (アプリの基本サービスと機能用)\10 ・ストレージ：\10 データ合成、画像またはビデオの保存、履歴データの表示に使用されます。\10 ・位置情報の取得：\10 デバイスのクイック接続やWi-Fiリストなどの機能に使用されます\10 上記の必要な権限または機能の呼び出しに同意しない場合は、このアプリケーションが正常に動作しない可能性があります。このアプリケーションを終了するか、「設定」-「権限管理」に進み、「認証をオフにしてサービスを終了する」を選択してください。
+    </string>
+    <string name="Device_Battery_Close">閉鎖
+    </string>
+    <string name="Device_Battery_Lower">バッテリー残量がわずかです
+    </string>
+    <string name="Device_Battery_TurnOff">まもなく終了します
+    </string>
+    <string name="Device_Battery_Warning">バッテリー残量が15%です
+    </string>
+    <string name="Device_Battery_Warning2">バッテリー残量が5％です
+    </string>
+    <string name="Device_Info">デバイス情報：
+    </string>
+    <string name="Device_Info_Remain_Electricity">バッテリー残量:
+    </string>
+    <string name="Device_Info_Remain_Time">残り時間：
+    </string>
+    <string name="Device_Status_Connected">接続された
+    </string>
+    <string name="Device_Status_Connecting">接続する
+    </string>
+    <string name="Device_Status_GoConnect">接続する
+    </string>
+    <string name="Device_Status_UnConnect">接続されていません
+    </string>
+    <string name="Device_Status_UnConnected_Click">クリックしてデバイスを接続します
+    </string>
+    <string name="Dialog_Preemptive_Port">現在のデバイスは別の携帯電話によって占有されています。接続を続けますか?
+    </string>
+    <string name="File_Bottombar_Label_Delete">消去
+    </string>
+    <string name="File_Bottombar_Label_Share">共有
+    </string>
+    <string name="File_Label_FileList_Empty">ファイルリストが空です
+    </string>
+    <string name="File_Manager_Edit_Select_All">すべて選択
+    </string>
+    <string name="File_Manager_Edit_Unselect_All">すべての選択を解除します
+    </string>
+    <string name="File_Manager_No_Select_File">ファイルが選択されていません
+    </string>
+    <string name="File_Show_Manager_Title_Select">%1$s 個のアイテムが選択されました
+    </string>
+    <string name="File_Show_Manager_Title_Select_IOS">%d 個の項目が選択されました
+    </string>
+    <string name="Guide_Connect_Notice">クリックして接続し、携帯電話のWIFI設定ページに移動して「UseeEar-xxxx」のWi-Fiを見つけてクリックして接続します。
+    </string>
+    <string name="Guide_Know">知っていた
+    </string>
+    <string name="Guide_Online_Camera_Notice">ハウスボタンをクリックしてビジュアルインターフェイスに入ります
+    </string>
+    <string name="Guide_Skip">スキップブート
+    </string>
+    <string name="Guide_User_Play_Notice">初めて使用する前に、操作ビデオを見ることをお勧めします!
+    </string>
+    <string name="License_Device_Illegal">利用できません。デバイスを接続してください。
+    </string>
+    <string name="MJRefresh_AutoFooterIdleText">さらに読み込むにはクリックまたはプルアップします
+    </string>
+    <string name="MJRefresh_AutoFooterNoMoreDataText">すべてロードされました
+    </string>
+    <string name="MJRefresh_AutoFooterRefreshingText">さらにデータをロードしています...
+    </string>
+    <string name="MJRefresh_HeaderIdleText">プルダウンして更新します
+    </string>
+    <string name="MJRefresh_HeaderLastTimeText">最新の更新:
+    </string>
+    <string name="MJRefresh_HeaderPullingText">放すとすぐに更新されます
+    </string>
+    <string name="MJRefresh_HeaderRefreshingText">データを更新しています...
+    </string>
+    <string name="PDF_Guide_Next">次のステップ
+    </string>
+    <string name="PDF_Guide_Pre">前の
+    </string>
+    <string name="Settings_Label_About_Firmware">ファームウェア
+    </string>
+    <string name="Settings_Label_About_ProductName">商品名
+    </string>
+    <string name="app_name">UseeEar
+    </string>
+</resources>

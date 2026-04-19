@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="App_Action_Delete_Message">Êtes-vous sûr de supprimer ces fichiers ?
+    </string>
+    <string name="App_Action_Share_Size_Message">Aucun Fichier Sélectionné ou plus de 9
+    </string>
+    <string name="App_Action_Share_Type_Message">Le partage de fichiers vidéo ne peut sélectionner qu&apos;une seule fois ce fichier
+    </string>
+    <string name="App_Agree_And_Continue">Acceptez et continuez
+    </string>
+    <string name="App_Album">Photo
+    </string>
+    <string name="App_Button_Cancel">Annuler
+    </string>
+    <string name="App_Button_OK">Bien sûr
+    </string>
+    <string name="App_Button_Return">Retour
+    </string>
+    <string name="App_CenterProgress_Loading">Chargement……
+    </string>
+    <string name="App_Connect_Wifi_Dialog">Produits connectés Wi-Fi
+    </string>
+    <string name="App_Device_Battert">Batterie de l&apos;appareil
+    </string>
+    <string name="App_Device_Info">Informations sur l&apos;appareil
+    </string>
+    <string name="App_Device_Time">Minute
+    </string>
+    <string name="App_Exit_Title">Verlassen
+    </string>
+    <string name="App_Exit_Title_Content">Sind Sie sicher, dass Sie aufhören wollen?
+    </string>
+    <string name="App_Go_Setting">Aller à
+    </string>
+    <string name="App_Goto_WifiSetting">Produits connectés Wi-Fi
+    </string>
+    <string name="App_Goto_WifiSetting_Now">Se connecter maintenant
+    </string>
+    <string name="App_GuideView_Click">Je vois
+    </string>
+    <string name="App_Gyroscope_Off">Lentille Grand angle
+    </string>
+    <string name="App_Gyroscope_On">lentille de focalisation
+    </string>
+    <string name="App_Lable_Album">Album photo
+    </string>
+    <string name="App_Lable_Ear_Left">Oreille gauche
+    </string>
+    <string name="App_Lable_Ear_Right">Oreille droite
+    </string>
+    <string name="App_Permission_Title">Vous devez autoriser manuellement l&apos;application à utiliser les « autorisations de lecture et d&apos;écriture » ​​pour utiliser cette fonctionnalité.
+    </string>
+    <string name="App_Permission_Title2">Vous devez autoriser manuellement l&apos;application à utiliser « l&apos;autorisation d&apos;enregistrement » pour utiliser cette fonctionnalité
+    </string>
+    <string name="App_Problem_Accessories">Accessoires
+    </string>
+    <string name="App_Problem_Answer2">À ce stade, vous devez cliquer à nouveau sur le périphérique Wi-Fi, sélectionner \\Ne pas enregistrer\\ dans la fenêtre contextuelle, déconnecter la connexion, puis vous connecter au Wi-Fi. Une fenêtre contextuelle apparaîtra plus tard : \\. Internet n&apos;est pas accessible via ce réseau. Voulez-vous rester connecté? \\, sélectionnez \\Oui\\ pour vous connecter au Wi-Fi.
+    </string>
+    <string name="App_Problem_Answer3">Alignez la cuillère auriculaire filetée avec la lentille et faites-la pivoter, pincez le point de tension de la cuillère auriculaire et faites-la pivoter.
+    </string>
+    <string name="App_Problem_Answer6">Désinstallez l&apos;application, téléchargez-la à nouveau et installez-la, et utilisez un tampon imbibé d&apos;alcool pour essuyer et nettoyer la lentille du produit. Si les opérations ci-dessus ne peuvent pas résoudre le problème, veuillez contacter le vendeur.
+    </string>
+    <string name="App_Problem_Other">Autre
+    </string>
+    <string name="App_Problem_Pickear">Bâton pour curer les oreilles
+    </string>
+    <string name="App_Problem_Question1">Processus d&apos;utilisation du produit
+    </string>
+    <string name="App_Problem_Question2">Le Wi-Fi de l&apos;appareil de prélèvement d&apos;oreille dans « Paramètres » indique clairement qu&apos;il est connecté, mais la vidéo ne peut pas être visionnée en accédant à la page de prélèvement d&apos;oreille.
+    </string>
+    <string name="App_Problem_Question3">Comment installer correctement les outils de cure-oreille et utiliser les accessoires de cure-oreille
+    </string>
+    <string name="App_Problem_Question4">Le corps s&apos;échauffe pendant l&apos;utilisation
+    </string>
+    <string name="App_Problem_Question5">Anomalie de connexion Wi-Fi
+    </string>
+    <string name="App_Problem_Question6">L&apos;application s&apos;affiche anormalement (écran flou/écran déformé/écran noir)
+    </string>
+    <string name="App_Representations_And_Terms">Avis de non-responsabilité et conditions
+    </string>
+    <string name="App_Setting">Installation
+    </string>
+    <string name="App_Setting_Album">Album photo
+    </string>
+    <string name="App_Setting_Problem">Problème commun
+    </string>
+    <string name="App_Take_Photo">Photo
+    </string>
+    <string name="App_Take_Video">Vidéo
+    </string>
+    <string name="App_Terms_Of_Service">Accord de l&apos;utilisateur
+    </string>
+    <string name="App_User_App_Version">Version
+    </string>
+    <string name="App_User_Language">Langue
+    </string>
+    <string name="App_User_Play">Utiliser le tutoriel
+    </string>
+    <string name="App_User_Privacy">Accord de confidentialité
+    </string>
+    <string name="App_User_Service">Contrat de service
+    </string>
+    <string name="App_User_Websit">Site officiel
+    </string>
+    <string name="App_Using_Tips">S&apos;il vous plait lisez notre politique de confidentialité. Cliquez sur&quot;Accepter et continuer&quot; pour accepter les conditions d&apos;utilisation
+    </string>
+    <string name="App_Using_content">Bienvenue sur UseeEar. Nous respecterons strictement les lois, réglementations et politiques de confidentialité en vigueur pour protéger vos informations personnelles.\10 Afin de fournir des services de base, vous devez appeler les autorisations ou fonctions suivantes :\10 Autorisations nécessaires (pour les services de base et les fonctionnalités de l&apos;application)\10 ·stockage:\10 Utilisé pour la synthèse de données, le stockage d&apos;images ou de vidéos et l&apos;affichage de données historiques\10 ·Obtenir des informations de localisation :\10 Utilisé pour des fonctions telles que la connexion rapide de l&apos;appareil et la liste Wi-Fi\10 Si vous n&apos;acceptez pas d&apos;appeler les autorisations ou fonctions nécessaires ci-dessus, cette application risque de ne pas fonctionner correctement. Vous pouvez choisir de quitter cette application/aller dans &quot;Paramètres&quot; - &quot;Gestion des autorisations&quot; &quot;Désactiver l&apos;autorisation et mettre fin au service&quot;.
+    </string>
+    <string name="Device_Battery_Close">Fermeture
+    </string>
+    <string name="Device_Battery_Lower">Batterie faible
+    </string>
+    <string name="Device_Battery_TurnOff">Arrêtez immédiatement
+    </string>
+    <string name="Device_Battery_Warning">Il ne reste que 15% de batterie
+    </string>
+    <string name="Device_Battery_Warning2">Il ne reste que 5% de batterie
+    </string>
+    <string name="Device_Info">Informations sur l&apos;appareil :
+    </string>
+    <string name="Device_Info_Remain_Electricity">Batterie restante :
+    </string>
+    <string name="Device_Info_Remain_Time">Temps restant:
+    </string>
+    <string name="Device_Status_Connected">Connecté
+    </string>
+    <string name="Device_Status_Connecting">De liaison
+    </string>
+    <string name="Device_Status_GoConnect">Se connecter
+    </string>
+    <string name="Device_Status_UnConnect">Pas connecté
+    </string>
+    <string name="Device_Status_UnConnected_Click">Cliquez pour connecter l&apos;appareil
+    </string>
+    <string name="Dialog_Preemptive_Port">L&apos;appareil actuel est occupé par un autre téléphone mobile. Voulez-vous continuer la connexion ?
+    </string>
+    <string name="File_Bottombar_Label_Delete">Supprimer
+    </string>
+    <string name="File_Bottombar_Label_Share">Partager
+    </string>
+    <string name="File_Label_FileList_Empty">La liste des fichiers est vide
+    </string>
+    <string name="File_Manager_Edit_Select_All">Tout sélectionner
+    </string>
+    <string name="File_Manager_Edit_Unselect_All">Tout déselectionner
+    </string>
+    <string name="File_Manager_No_Select_File">Aucun fichier sélectionné
+    </string>
+    <string name="File_Show_Manager_Title_Select">%1$s éléments sélectionnés
+    </string>
+    <string name="File_Show_Manager_Title_Select_IOS">%d éléments sélectionnés
+    </string>
+    <string name="Guide_Connect_Notice">Cliquez pour vous connecter, accédez à la page des paramètres WIFI du téléphone mobile pour trouver le WIFI de « UseeEar-xxxx », et cliquez pour vous connecter.
+    </string>
+    <string name="Guide_Know">Savait
+    </string>
+    <string name="Guide_Online_Camera_Notice">Cliquez sur le bouton maison pour accéder à l&apos;interface visuelle
+    </string>
+    <string name="Guide_Skip">Sauter le démarrage
+    </string>
+    <string name="Guide_User_Play_Notice">Avant de l&apos;utiliser pour la première fois, il est recommandé de regarder la vidéo de fonctionnement !
+    </string>
+    <string name="License_Device_Illegal">Non disponible, veuillez connecter l&apos;appareil !
+    </string>
+    <string name="MJRefresh_AutoFooterIdleText">Cliquez ou tirez vers le haut pour en charger davantage
+    </string>
+    <string name="MJRefresh_AutoFooterNoMoreDataText">Tous ont été chargés
+    </string>
+    <string name="MJRefresh_AutoFooterRefreshingText">Chargement de plus de données...
+    </string>
+    <string name="MJRefresh_HeaderIdleText">Déroulez pour actualiser
+    </string>
+    <string name="MJRefresh_HeaderLastTimeText">Dernière mise à jour:
+    </string>
+    <string name="MJRefresh_HeaderPullingText">Relâchez pour actualiser immédiatement
+    </string>
+    <string name="MJRefresh_HeaderRefreshingText">Actualisation des données...
+    </string>
+    <string name="PDF_Guide_Next">L&apos;étape suivante
+    </string>
+    <string name="PDF_Guide_Pre">Précédent
+    </string>
+    <string name="Settings_Label_About_Firmware">Micrologiciel
+    </string>
+    <string name="Settings_Label_About_ProductName">Nom du produit
+    </string>
+    <string name="app_name">UseeEar
+    </string>
+</resources>

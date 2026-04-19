@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.i4season.bkCamera.uirelated.other.view.TransformativeImageView2
+        android:layout_gravity="center"
+        android:id="@+id/photo_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:max_scale="4"
+        app:min_scale="1"
+        app:open_rotate_revert="true"
+        app:open_scale_revert="false"
+        app:open_translate_revert="true"
+        app:ration="true"
+        app:revert_duration="100"
+        app:scale_center="finger_center"/>
+    <com.i4season.bkCamera.uirelated.other.view.TransformativeImageView2
+        android:layout_gravity="center"
+        android:id="@+id/photo_preview2"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:max_scale="4"
+        app:min_scale="1"
+        app:open_rotate_revert="true"
+        app:open_scale_revert="false"
+        app:open_translate_revert="true"
+        app:ration="true"
+        app:revert_duration="100"
+        app:scale_center="finger_center"/>
+    <ImageView
+        android:id="@+id/photo_preview_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

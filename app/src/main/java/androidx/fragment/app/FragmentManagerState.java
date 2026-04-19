@@ -1,0 +1,52 @@
+package androidx.fragment.app;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+
+final class FragmentManagerState implements Parcelable {
+    public static final Parcelable.Creator<FragmentManagerState> CREATOR = new Parcelable.Creator<FragmentManagerState>() {
+        /* JADX WARN: Can't rename method to resolve collision */
+        @Override
+        public FragmentManagerState createFromParcel(Parcel parcel) {
+            return new FragmentManagerState(parcel);
+        }
+
+        /* JADX WARN: Can't rename method to resolve collision */
+        @Override
+        public FragmentManagerState[] newArray(int i) {
+            return new FragmentManagerState[i];
+        }
+    };
+    FragmentState[] mActive;
+    int[] mAdded;
+    BackStackState[] mBackStack;
+    int mNextFragmentIndex;
+    int mPrimaryNavActiveIndex;
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    public FragmentManagerState() {
+        this.mPrimaryNavActiveIndex = -1;
+    }
+
+    public FragmentManagerState(Parcel parcel) {
+        this.mPrimaryNavActiveIndex = -1;
+        this.mActive = (FragmentState[]) parcel.createTypedArray(FragmentState.CREATOR);
+        this.mAdded = parcel.createIntArray();
+        this.mBackStack = (BackStackState[]) parcel.createTypedArray(BackStackState.CREATOR);
+        this.mPrimaryNavActiveIndex = parcel.readInt();
+        this.mNextFragmentIndex = parcel.readInt();
+    }
+
+    @Override
+    public void writeToParcel(Parcel parcel, int i) {
+        parcel.writeTypedArray(this.mActive, i);
+        parcel.writeIntArray(this.mAdded);
+        parcel.writeTypedArray(this.mBackStack, i);
+        parcel.writeInt(this.mPrimaryNavActiveIndex);
+        parcel.writeInt(this.mNextFragmentIndex);
+    }
+}

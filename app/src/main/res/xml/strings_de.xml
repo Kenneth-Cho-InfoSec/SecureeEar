@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="App_Action_Delete_Message">Möchten Sie diese Dateien wirklich löschen?
+    </string>
+    <string name="App_Action_Share_Size_Message">Keine Dateien ausgewählt oder mehr als 9
+    </string>
+    <string name="App_Action_Share_Type_Message">Beim Teilen von Videodateien kann diese Datei nur einzeln ausgewählt werden
+    </string>
+    <string name="App_Agree_And_Continue">Zustimmen und fortfahren
+    </string>
+    <string name="App_Album">Foto
+    </string>
+    <string name="App_Button_Cancel">Stornieren
+    </string>
+    <string name="App_Button_OK">Sicher
+    </string>
+    <string name="App_Button_Return">Zurückkehren
+    </string>
+    <string name="App_CenterProgress_Loading">Wird geladen……
+    </string>
+    <string name="App_Connect_Wifi_Dialog">Verbundene Produkte Wi-Fi
+    </string>
+    <string name="App_Device_Battert">Gerätebatterie
+    </string>
+    <string name="App_Device_Info">Geräteinformation
+    </string>
+    <string name="App_Device_Time">Minute
+    </string>
+    <string name="App_Exit_Title">Verlassen
+    </string>
+    <string name="App_Exit_Title_Content">Sind Sie sicher, dass Sie aufhören wollen?
+    </string>
+    <string name="App_Go_Setting">Gehe zu
+    </string>
+    <string name="App_Goto_WifiSetting">Verbundene Produkte Wi-Fi
+    </string>
+    <string name="App_Goto_WifiSetting_Now">Verbinde jetzt
+    </string>
+    <string name="App_GuideView_Click">Ich verstehe
+    </string>
+    <string name="App_Gyroscope_Off">Breitbildobjektiv
+    </string>
+    <string name="App_Gyroscope_On">Fokussierlinse
+    </string>
+    <string name="App_Lable_Album">Fotoalbum
+    </string>
+    <string name="App_Lable_Ear_Left">Linkes Ohr
+    </string>
+    <string name="App_Lable_Ear_Right">Rechtes Ohr
+    </string>
+    <string name="App_Permission_Title">Um diese Funktion nutzen zu können, müssen Sie der App manuell erlauben, „Lese- und Schreibberechtigungen“ zu verwenden
+    </string>
+    <string name="App_Permission_Title2">Um diese Funktion nutzen zu können, müssen Sie der App manuell erlauben, die „Aufnahmeberechtigung“ zu verwenden
+    </string>
+    <string name="App_Problem_Accessories">Zubehör
+    </string>
+    <string name="App_Problem_Answer2">Zu diesem Zeitpunkt müssen Sie erneut auf das WLAN des Geräts klicken, im Popup-Fenster \\Nicht speichern\\ auswählen, die Verbindung trennen und dann eine Verbindung zum WLAN herstellen. Später wird ein Popup-Fenster angezeigt: \\Das Internet kann nicht sein über dieses Netzwerk abgerufen werden. Möchten Sie in Verbindung bleiben? \\, wählen Sie \\Ja\\, Sie können eine Verbindung zu WLAN herstellen.
+    </string>
+    <string name="App_Problem_Answer3">Richten Sie den Ohrlöffel mit Gewinde an der Linse aus und drehen Sie ihn, drücken Sie den Spannungspunkt des Ohrlöffels zusammen und drehen Sie ihn heraus.
+    </string>
+    <string name="App_Problem_Answer6">Deinstallieren Sie die App, laden Sie sie erneut herunter, installieren Sie sie und wischen und reinigen Sie die Produktlinse mit einem Alkoholtupfer. Wenn das Problem durch die oben genannten Vorgänge nicht gelöst werden kann, wenden Sie sich bitte an den Verkäufer.
+    </string>
+    <string name="App_Problem_Other">Andere
+    </string>
+    <string name="App_Problem_Pickear">Ohrenpflücker
+    </string>
+    <string name="App_Problem_Question1">Produktnutzungsprozess
+    </string>
+    <string name="App_Problem_Question2">Das WLAN des Ohrstöpselgeräts in den „Einstellungen“ zeigt deutlich an, dass es verbunden ist, aber das Video kann beim Aufrufen der Ohrstöpselseite nicht angezeigt werden.
+    </string>
+    <string name="App_Problem_Question3">So installieren Sie Ohrenpflücker-Werkzeuge richtig und verwenden Ohrenpflücker-Zubehör
+    </string>
+    <string name="App_Problem_Question4">Der Körper erwärmt sich während des Gebrauchs
+    </string>
+    <string name="App_Problem_Question5">Anomalie bei der Wi-Fi Verbindung
+    </string>
+    <string name="App_Problem_Question6">App wird ungewöhnlich angezeigt (verschwommener Bildschirm/verzerrter Bildschirm/schwarzer Bildschirm)
+    </string>
+    <string name="App_Representations_And_Terms">Haftungsausschluss und Bedingungen
+    </string>
+    <string name="App_Setting">Aufstellen
+    </string>
+    <string name="App_Setting_Album">Fotoalbum
+    </string>
+    <string name="App_Setting_Problem">Häufiges Problem
+    </string>
+    <string name="App_Take_Photo">Foto
+    </string>
+    <string name="App_Take_Video">Video
+    </string>
+    <string name="App_Terms_Of_Service">Nutzungsbedingungen
+    </string>
+    <string name="App_User_App_Version">Ausführung
+    </string>
+    <string name="App_User_Language">Sprache
+    </string>
+    <string name="App_User_Play">Tutorial verwenden
+    </string>
+    <string name="App_User_Privacy">Datenschutzvereinbarung
+    </string>
+    <string name="App_User_Service">Dienstleistungsvertrag
+    </string>
+    <string name="App_User_Websit">Offizielle Website
+    </string>
+    <string name="App_Using_Tips">Bitte lesen Sie unsere Datenschutzerklärung. Klicken Sie auf &quot;Zustimmen und fortfahren&quot;, um die Nutzungsbedingungen zu akzeptieren
+    </string>
+    <string name="App_Using_content">Willkommen bei UseeEar. Wir werden uns strikt an die relevanten Gesetze, Vorschriften und Datenschutzrichtlinien halten, um Ihre persönlichen Daten zu schützen.\10 Um grundlegende Dienste bereitzustellen, müssen Sie die folgenden Berechtigungen oder Funktionen aufrufen:\10 Notwendige Berechtigungen (für grundlegende Dienste und Funktionalität der App)\10 ·Lagerung:\10 Wird zur Datensynthese, Bild- oder Videospeicherung und zur Anzeige historischer Daten verwendet\10 ·Standortinformationen abrufen:\10 Wird für Funktionen wie Geräteschnellverbindung und WLAN-Liste verwendet\10 Wenn Sie dem Aufruf der oben genannten erforderlichen Berechtigungen oder Funktionen nicht zustimmen, funktioniert diese Anwendung möglicherweise nicht ordnungsgemäß. Sie können diese Anwendung beenden/zu „Einstellungen“ – „Berechtigungsverwaltung“ „Autorisierung deaktivieren und Dienst beenden“ gehen.
+    </string>
+    <string name="Device_Battery_Close">Schließung
+    </string>
+    <string name="Device_Battery_Lower">Niedriger Batteriestatus
+    </string>
+    <string name="Device_Battery_TurnOff">Sofort abschalten
+    </string>
+    <string name="Device_Battery_Warning">Nur noch 15% Akku
+    </string>
+    <string name="Device_Battery_Warning2">Nur noch 5% Akku
+    </string>
+    <string name="Device_Info">Geräteinformation:
+    </string>
+    <string name="Device_Info_Remain_Electricity">verbleibende Batterie:
+    </string>
+    <string name="Device_Info_Remain_Time">übrige Zeit:
+    </string>
+    <string name="Device_Status_Connected">In Verbindung gebracht
+    </string>
+    <string name="Device_Status_Connecting">Verbinden
+    </string>
+    <string name="Device_Status_GoConnect">Verbinden
+    </string>
+    <string name="Device_Status_UnConnect">Nicht verbunden
+    </string>
+    <string name="Device_Status_UnConnected_Click">Klicken Sie, um das Gerät zu verbinden
+    </string>
+    <string name="Dialog_Preemptive_Port">Das aktuelle Gerät ist mit einem anderen Mobiltelefon belegt. Möchten Sie die Verbindung fortsetzen?
+    </string>
+    <string name="File_Bottombar_Label_Delete">Löschen
+    </string>
+    <string name="File_Bottombar_Label_Share">Aktie
+    </string>
+    <string name="File_Label_FileList_Empty">Die Dateiliste ist leer
+    </string>
+    <string name="File_Manager_Edit_Select_All">Wählen Sie Alle
+    </string>
+    <string name="File_Manager_Edit_Unselect_All">Alles wiederufen
+    </string>
+    <string name="File_Manager_No_Select_File">Keine Datei ausgewählt
+    </string>
+    <string name="File_Show_Manager_Title_Select">%1$s Elemente ausgewählt
+    </string>
+    <string name="File_Show_Manager_Title_Select_IOS">%d Elemente ausgewählt
+    </string>
+    <string name="Guide_Connect_Notice">Klicken Sie, um eine Verbindung herzustellen, gehen Sie zur Seite mit den WLAN-Einstellungen des Mobiltelefons, um das WLAN von „UseeEar-xxxx“ zu finden, und klicken Sie, um eine Verbindung herzustellen.
+    </string>
+    <string name="Guide_Know">Wusste
+    </string>
+    <string name="Guide_Online_Camera_Notice">Klicken Sie auf die Hausschaltfläche, um die visuelle Benutzeroberfläche aufzurufen
+    </string>
+    <string name="Guide_Skip">Boot überspringen
+    </string>
+    <string name="Guide_User_Play_Notice">Vor dem ersten Gebrauch empfiehlt es sich, sich das Bedienungsvideo anzuschauen!
+    </string>
+    <string name="License_Device_Illegal">Nicht verfügbar, bitte Gerät anschließen!
+    </string>
+    <string name="MJRefresh_AutoFooterIdleText">Klicken oder ziehen Sie nach oben, um mehr zu laden
+    </string>
+    <string name="MJRefresh_AutoFooterNoMoreDataText">Alle wurden geladen
+    </string>
+    <string name="MJRefresh_AutoFooterRefreshingText">Weitere Daten werden geladen...
+    </string>
+    <string name="MJRefresh_HeaderIdleText">Zum Aktualisieren nach unten ziehen
+    </string>
+    <string name="MJRefresh_HeaderLastTimeText">Neuestes Update:
+    </string>
+    <string name="MJRefresh_HeaderPullingText">Zum sofortigen Aktualisieren loslassen
+    </string>
+    <string name="MJRefresh_HeaderRefreshingText">Daten werden aktualisiert...
+    </string>
+    <string name="PDF_Guide_Next">Nächster Schritt
+    </string>
+    <string name="PDF_Guide_Pre">Vorherige
+    </string>
+    <string name="Settings_Label_About_Firmware">Firmware
+    </string>
+    <string name="Settings_Label_About_ProductName">Produktname
+    </string>
+    <string name="app_name">UseeEar
+    </string>
+</resources>

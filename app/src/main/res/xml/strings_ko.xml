@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="App_About">정보
+    </string>
+    <string name="App_Action_Delete_Message">삭제하시겠습니까?
+    </string>
+    <string name="App_Action_Share_Size_Message">선택한 파일이 없거나 9장 이상
+    </string>
+    <string name="App_Action_Share_Type_Message">비디오 파일 공유는 이 파일만 선택할 수 있습니다.
+    </string>
+    <string name="App_Agree_And_Continue">동의 및 계속
+    </string>
+    <string name="App_Button_Cancel">취소
+    </string>
+    <string name="App_Button_OK">확인
+    </string>
+    <string name="App_Connect_Wifi_Dialog">제품 WiFi 연결
+    </string>
+    <string name="App_Device_Battert">장치 전력
+    </string>
+    <string name="App_Device_Info">장치 정보
+    </string>
+    <string name="App_Exit_Title">종료
+    </string>
+    <string name="App_Exit_Title_Content">종료하시겠습니까?
+    </string>
+    <string name="App_Go_Setting">이동
+    </string>
+    <string name="App_Goto_WifiSetting">제품 WiFi 연결
+    </string>
+    <string name="App_Goto_WifiSetting_Now">지금 연결
+    </string>
+    <string name="App_GuideView_Click">알겠습니다.
+    </string>
+    <string name="App_Gyroscope_Off">와이드 스크린 렌즈
+    </string>
+    <string name="App_Gyroscope_On">초점 렌즈
+    </string>
+    <string name="App_Lable_Album">앨범
+    </string>
+    <string name="App_Lable_Ear_Left">왼쪽 귀
+    </string>
+    <string name="App_Lable_Ear_Right">오른쪽 귀
+    </string>
+    <string name="App_Permission_Title">애플리케이션이 읽기 및 쓰기 권한을 사용하여 이 기능을 사용하도록 수동으로 허용해야 합니다.
+    </string>
+    <string name="App_Problem_Answer1">&quot;① 휴대폰 스캔 설명서의 QR코드나 \\App Store\\\\Google Play\\에서&quot;UseeEar&quot;를 검색하여 App을 다운로드하고 설치합니다.\10        ② 전원 버튼을 3초 동안 길게 눌러 전원을 켭니다.\10        ③ UseeEar 앱을 엽니다.\10        ④ 휴대폰 설정으로 이동하여 무선 LAN 인터페이스 연결 제품 UseeEar-xxxx 선택;\10        ⑤&apos;UseeEar App&apos;으로 돌아가 집 아이콘을 다시 클릭하면 사용할 수 있다.&quot;
+    </string>
+    <string name="App_Problem_Answer2">이 때 이 장치의 WiFi를 다시 클릭하고 탄창에서\\저장하지 않음\\을 선택하고 연결을 끊은 후 WIFi에 연결하면 나중에 탄창이 나타납니다:\\이 네트워크를 사용하면 인터넷에 액세스할 수 없습니다.계속 연결하시겠습니까? \\,WiFi에 연결하려면 \\ 예 \\ 를 선택합니다.
+    </string>
+    <string name="App_Problem_Answer3">나사산 귀고리는 렌즈에 맞추어 회전하여 설치하고, 귀고리의 힘을 받는 점을 꼬집어 회전하여 꺼낸다.
+    </string>
+    <string name="App_Problem_Answer4">제품 렌즈에는 LED 냉광등이 설치되어 있어 눈부시지 않고 눈부시지 않으며 제품은 이중 온도 제어 시스템을 채택하여 사용 과정 중 귀거울 부분은 무감각 온도가 25 °, 동체 부분은 손바닥 온도가 32 ° 이기 때문에 제품 운행 과정 중 경미한 발열이 발생하는 것은 정상적인 현상에 속하며 품질이 안전하여 안심하고 사용할 수 있다.
+    </string>
+    <string name="App_Problem_Answer5">&quot;【제품 WiFi 연결 시 네트워크 가입 거부 프롬프트】\10        주변에 이 제품 와이파이에 연결된 다른 휴대전화가 있는지 확인하고 전원을 켜고 다시 켜서 연결하면 된다.\10        &quot;제품 WiFi 연결 후 App에 이미지가 없습니다.&quot;\10        IOS 시스템:\10        핸드폰 설정으로 가서&apos;UseeEar&apos;App을 찾아 클릭하여 들어가고, 로컬 네트워크를 찾아 이 옵션을 열고, 앱으로 돌아가서 다시 연결하면 정상적으로 사용할 수 있다.\10        Android:\10        제품 전원이 켜진 상태에서 휴대전화 설정으로 이동해&apos;UseeEar-xxxx&apos;를 찾으면 처음 WiFi를 잊어버리거나 저장하지 않거나 삭제하고 다시 연결하면 사용할 수 있다.\10        이 WiFi에 연결하면 휴대폰에 팝업 창이 나타납니다.&quot;이 네트워크를 사용하여 인터넷에 접속할 수 없습니다. 계속 연결하시겠습니까?&quot;예&quot;를 선택하면 정상적으로 사용할 수 있습니다.&quot;;&quot;
+    </string>
+    <string name="App_Problem_Answer6">App을 제거하고 다시 다운로드하여 설치하고 알코올 면봉으로 청소 제품 렌즈를 닦습니다. 위의 조작으로도 이 문제를 해결할 수 없다면 판매자에게 연락하십시오.
+    </string>
+    <string name="App_Problem_Question1">제품 사용 프로세스
+    </string>
+    <string name="App_Problem_Question2">설정&apos;에서 귀 채취 장치 WIFi 는 분명히 연결된 것으로 표시되어 있지만, 귀 채취 페이지에 들어가면 동영상을 볼 수 없다
+    </string>
+    <string name="App_Problem_Question3">귀 채취 공구는 어떻게 귀 채취 부품의 사용 방법을 정확하게 설치합니까
+    </string>
+    <string name="App_Problem_Question4">사용 과정 기체 발열
+    </string>
+    <string name="App_Problem_Question5">WiFi 연결 예외
+    </string>
+    <string name="App_Problem_Question6">App 디스플레이 예외 (화면 흐림/꽃 화면/검정 화면)
+    </string>
+    <string name="App_Representations_And_Terms">성명 및 조항
+    </string>
+    <string name="App_Setting">설치
+    </string>
+    <string name="App_Setting_Album">제품 앨범
+    </string>
+    <string name="App_Setting_Problem">자주 묻는 질문
+    </string>
+    <string name="App_Storage_Permission_Content">사진 촬영, 동영상 녹화, 앨범 파일 보기, 사진 사용 권한이 필요합니다. 안심하고 사진 사용 권한을 켜십시오.
+    </string>
+    <string name="App_Take_Photo">사진 촬영
+    </string>
+    <string name="App_Take_Video">비디오
+    </string>
+    <string name="App_Terms_Of_Service">사용자 프로토콜
+    </string>
+    <string name="App_User_App_Version">버전
+    </string>
+    <string name="App_User_Language">언어
+    </string>
+    <string name="App_User_Play">자습서 사용
+    </string>
+    <string name="App_User_Privacy">개인 정보 보호 프로토콜
+    </string>
+    <string name="App_User_Service">서비스 계약
+    </string>
+    <string name="App_Using_Tips">개인 정보 보호 정책을 읽어 보십시오.사용자 계약을 수락하려면 &quot;동의 및 계속&quot; 을 클릭하십시오.
+    </string>
+    <string name="App_Using_content">&quot;UseeEar 사용을 환영합니다.저희는 관련 법률, 법규와 프라이버시 정책을 엄격히 준수하여 귀하의 개인정보를 보호할 것입니다.\10        기본 서비스를 제공하려면 다음과 같은 권한이나 기능을 호출해야 합니다.\10        필수 권한 (애플리케이션에 대한 기본 서비스 및 기능)\10        · 스토리지:\10        데이터 데이터 합성 사진 또는 비디오 저장 및 히스토리 데이터 프레젠테이션\10        · 위치 정보 얻기:\10        장치 고속 연결 및 Wi-Fi 목록과 같은 기능에 사용\10        위의 필수 권한 또는 기능을 호출하는 데 동의하지 않을 경우 이 응용 프로그램을 제대로 사용할 수 없게 될 수 있습니다. 이 응용 프로그램을 종료하거나 설정 - 권한 관리 권한 종료 서비스 종료 권한으로 이동할 수 있습니다.
+    </string>
+    <string name="Device_Battery_Close">닫기
+    </string>
+    <string name="Device_Battery_Lower">배터리 부족
+    </string>
+    <string name="Device_Battery_TurnOff">당장 꺼
+    </string>
+    <string name="Device_Battery_Warning">15% 남았어요
+    </string>
+    <string name="Device_Battery_Warning2">5% 밖에 안 남았어요.
+    </string>
+    <string name="Device_Info">장치 정보:
+    </string>
+    <string name="Device_Info_Remain_Electricity">남은 전력:
+    </string>
+    <string name="Device_Info_Remain_Time">남은 시간:
+    </string>
+    <string name="Device_Status_Connected">접속됨
+    </string>
+    <string name="Device_Status_Connecting">연결 중
+    </string>
+    <string name="Device_Status_UnConnect">접속되지 않음
+    </string>
+    <string name="Device_Status_UnConnected_Click">클릭하여 장치 연결
+    </string>
+    <string name="File_Bottombar_Label_Delete">삭제
+    </string>
+    <string name="File_Bottombar_Label_Share">공유
+    </string>
+    <string name="File_Label_FileList_Empty">파일 목록이 비어 있음
+    </string>
+    <string name="File_Manager_Edit_Select_All">모두 선택
+    </string>
+    <string name="File_Manager_Edit_Unselect_All">모두 선택 안 함
+    </string>
+    <string name="File_Manager_No_Select_File">선택되지 않은 파일
+    </string>
+    <string name="File_Show_Manager_Title_Select">%1$s 항목 선택
+    </string>
+    <string name="File_Show_Manager_Title_Select_IOS">%d 항목 선택
+    </string>
+    <string name="License_Device_Illegal">사용할 수 없습니다. 장치를 연결하십시오.
+    </string>
+    <string name="MJRefresh_AutoFooterIdleText">클릭하거나 위로 당기기 추가 로드
+    </string>
+    <string name="MJRefresh_AutoFooterNoMoreDataText">모두 로드됨
+    </string>
+    <string name="MJRefresh_AutoFooterRefreshingText">추가 데이터 로드 중...
+    </string>
+    <string name="MJRefresh_HeaderDateTodayText">오늘
+    </string>
+    <string name="MJRefresh_HeaderIdleText">드롭다운 새로 고침 가능
+    </string>
+    <string name="MJRefresh_HeaderLastTimeText">최종 업데이트:
+    </string>
+    <string name="MJRefresh_HeaderNoneLastDateText">기록 없음
+    </string>
+    <string name="MJRefresh_HeaderPullingText">풀기 즉시 새로 고침
+    </string>
+    <string name="MJRefresh_HeaderRefreshingText">데이터 새로 고침 중...
+    </string>
+    <string name="Refuse_Permission_And_LocalNetwork">설정 -UseeEar- 로컬 네트워크 옵션에서 로컬 네트워크에 액세스할 수 있도록 하십시오.
+    </string>
+    <string name="Refuse_Permission_And_ignore">무시
+    </string>
+    <string name="Settings_Label_About_Firmware">펌웨어
+    </string>
+    <string name="Settings_Label_About_ProductName">제품 이름
+    </string>
+    <string name="VideoPlayer_MSG_16x9">0.672916666666667
+    </string>
+    <string name="VideoPlayer_MSG_4x3">4:03
+    </string>
+    <string name="VideoPlayer_MSG_Bestfit">최적의 적응
+    </string>
+    <string name="VideoPlayer_MSG_Default_Current_Time">0
+    </string>
+    <string name="VideoPlayer_MSG_Fast_Forward">빨리
+    </string>
+    <string name="VideoPlayer_MSG_Fast_Rewind">물러서요
+    </string>
+    <string name="VideoPlayer_MSG_Fill">채우기
+    </string>
+    <string name="VideoPlayer_MSG_Fit_Horizontal">수평 적응
+    </string>
+    <string name="VideoPlayer_MSG_Fit_Vertical">수직 적응
+    </string>
+    <string name="VideoPlayer_MSG_Not_Exist">미안!이 비디오는 존재하지 않습니다.
+    </string>
+    <string name="VideoPlayer_MSG_Open_VideoFile_Failed">파일 열기 실패
+    </string>
+    <string name="VideoPlayer_MSG_Original">가운데
+    </string>
+    <string name="VideoPlayer_MSG_Play_Err">비디오를 재생할 수 없습니다.
+    </string>
+    <string name="VideoPlayer_MSG_Replaying_For_History">마지막으로 중지된 위치에서 재생을 재개하시겠습니까?
+    </string>
+    <string name="VideoPlayer_MSG_Replaying_Title">비디오 다시 보기
+    </string>
+    <string name="VideoPlayer_Subtitleencode_Choose_Text">텍스트 트랙
+    </string>
+    <string name="VideoPlayer_Subtitleencode_Saved_Text">인코딩 설정은 다시 재생해야 적용됩니다. 계속하시겠습니까?
+    </string>
+    <string name="VideoView_Label_Audio">트랙
+    </string>
+    <string name="VideoView_Label_Brightness">밝기
+    </string>
+    <string name="VideoView_Label_Subtitle">자막
+    </string>
+    <string name="VideoView_Label_Volume">볼륨
+    </string>
+    <string name="Video_Record_Wirte_Error_Message">파일 쓰기 오류
+    </string>
+    <string name="app_name">UseeEar
+    </string>
+</resources>
