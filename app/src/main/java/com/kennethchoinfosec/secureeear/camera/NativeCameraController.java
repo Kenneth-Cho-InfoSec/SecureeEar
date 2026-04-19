@@ -8,7 +8,6 @@ import android.os.Looper;
 
 import com.jni.CallBack.WifiCallBack;
 import com.jni.WifiCameraApi;
-import com.jni.WifiCameraInfo.WifiCameraFirmInfo;
 import com.jni.WifiCameraInfo.WifiCameraPic;
 import com.jni.WifiCameraInfo.WifiCameraStatusInfo;
 import com.jni.logmanageWifi.LogManagerWD;
@@ -71,7 +70,7 @@ public final class NativeCameraController implements WifiCallBack.DeviceStatusIn
                     api.init(appContext);
                     int startResult = api.gWifiCamera.caStart();
                     postStatus("Camera start result: " + startResult);
-                    queryDeviceSnapshot();
+                    postDevice("Waiting for camera stream");
                 } catch (Throwable throwable) {
                     started.set(false);
                     postStatus("Start failed: " + throwable.getClass().getSimpleName());
@@ -105,25 +104,6 @@ public final class NativeCameraController implements WifiCallBack.DeviceStatusIn
         cameraExecutor.shutdown();
     }
 
-    private void queryDeviceSnapshot() {
-        try {
-            WifiCameraFirmInfo firmInfo = new WifiCameraFirmInfo();
-            int firmResult = WifiCameraApi.getInstance().gWifiCamera.cameraFirmInfoGet(firmInfo);
-            WifiCameraStatusInfo statusInfo = new WifiCameraStatusInfo();
-            int statusResult = WifiCameraApi.getInstance().gWifiCamera.cameraStatusInfoGet(statusInfo);
-            postDevice(String.format(Locale.US,
-                    "Firmware %d | %s %s | v%s | battery %d%% | status %d",
-                    firmResult,
-                    safe(firmInfo.getvendor()),
-                    safe(firmInfo.getproduct()),
-                    safe(firmInfo.getversion()),
-                    statusInfo.battery,
-                    statusResult));
-        } catch (Throwable throwable) {
-            postDevice("Device details unavailable");
-        }
-    }
-
     @Override
     public void getStatus(int dtype, int status) {
         String label;
@@ -133,7 +113,7 @@ public final class NativeCameraController implements WifiCallBack.DeviceStatusIn
                 break;
             case 2:
                 label = "online";
-                queryDeviceSnapshot();
+                postDevice("Online; receiving local camera callbacks");
                 break;
             case 3:
                 label = "online failed";
@@ -223,9 +203,5 @@ public final class NativeCameraController implements WifiCallBack.DeviceStatusIn
                 listener.onMetrics(frameCount, audioCount);
             }
         });
-    }
-
-    private String safe(String value) {
-        return value == null ? "" : value;
     }
 }
