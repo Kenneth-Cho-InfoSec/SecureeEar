@@ -2,6 +2,8 @@
 
 SecureeEar is a clean Android reconstruction focused on local-only operation for UseeEar-compatible Wi-Fi ear hygiene cameras.
 
+![SecureeEar secure ear camera illustration](docs/assets/secureeear-hero.png)
+
 ## Security Model
 
 - No cloud APIs.
