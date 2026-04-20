@@ -4,7 +4,9 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.Color;
+import android.graphics.Matrix;
 import android.graphics.Typeface;
+import android.os.Build;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.view.Gravity;
@@ -47,6 +49,9 @@ public final class MainActivity extends ComponentActivity implements NativeCamer
     private TextView nativeRiskValue;
     private ImageView preview;
     private MaterialButton cameraButton;
+    private MaterialButton rotateButton;
+    private Bitmap latestFrame;
+    private int previewRotationDegrees;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -121,14 +126,21 @@ public final class MainActivity extends ComponentActivity implements NativeCamer
         });
         actionRow.addView(cameraButton, weightedButtonParams());
 
-        MaterialButton refreshButton = pillButton("Scan", false);
-        refreshButton.setOnClickListener(new View.OnClickListener() {
+        rotateButton = pillButton("", false);
+        rotateButton.setIconResource(R.drawable.ic_rotate_90);
+        rotateButton.setIconGravity(MaterialButton.ICON_GRAVITY_TEXT_START);
+        rotateButton.setIconPadding(0);
+        rotateButton.setContentDescription("Rotate preview 90 degrees");
+        if (Build.VERSION.SDK_INT >= 26) {
+            rotateButton.setTooltipText("Rotate preview");
+        }
+        rotateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                refreshSecurityState();
+                rotatePreview();
             }
         });
-        actionRow.addView(refreshButton, weightedButtonParams());
+        actionRow.addView(rotateButton, weightedButtonParams());
 
         root.addView(statusPanel(), matchWrapWithBottom(12));
         root.addView(securityPanel(), matchWrapWithBottom(12));
@@ -206,8 +218,9 @@ public final class MainActivity extends ComponentActivity implements NativeCamer
 
     @Override
     public void onFrame(Bitmap bitmap, String metadata) {
-        preview.setImageBitmap(bitmap);
-        frameValue.setText("Preview: " + metadata);
+        latestFrame = bitmap;
+        renderPreview();
+        frameValue.setText("Preview: " + metadata + " | rotate " + previewRotationDegrees + "°");
     }
 
     @Override
@@ -243,6 +256,34 @@ public final class MainActivity extends ComponentActivity implements NativeCamer
             button.setTextColor(TEAL_DARK);
         }
         return button;
+    }
+
+    private void rotatePreview() {
+        previewRotationDegrees = (previewRotationDegrees + 90) % 360;
+        renderPreview();
+        frameValue.setText("Preview rotation: " + previewRotationDegrees + "°");
+    }
+
+    private void renderPreview() {
+        if (latestFrame == null) {
+            return;
+        }
+        if (previewRotationDegrees == 0) {
+            preview.setRotation(0f);
+            preview.setImageBitmap(latestFrame);
+            return;
+        }
+        try {
+            Matrix matrix = new Matrix();
+            matrix.postRotate(previewRotationDegrees);
+            Bitmap rotated = Bitmap.createBitmap(latestFrame, 0, 0, latestFrame.getWidth(), latestFrame.getHeight(), matrix, true);
+            preview.setRotation(0f);
+            preview.setImageBitmap(rotated);
+        } catch (RuntimeException exception) {
+            preview.setRotation(0f);
+            preview.setImageBitmap(latestFrame);
+            frameValue.setText("Preview rotation failed; showing original frame");
+        }
     }
 
     private TextView pillLabel(String value) {
