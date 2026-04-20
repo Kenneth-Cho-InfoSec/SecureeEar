@@ -13,6 +13,7 @@ import com.jni.WifiCameraInfo.WifiCameraStatusInfo;
 import com.jni.logmanageWifi.LogManagerWD;
 
 import java.io.File;
+import java.util.Arrays;
 import java.util.Locale;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -32,7 +33,9 @@ public final class NativeCameraController implements WifiCallBack.DeviceStatusIn
     private final Context appContext;
     private final Handler mainHandler = new Handler(Looper.getMainLooper());
     private final ExecutorService cameraExecutor = Executors.newSingleThreadExecutor();
+    private final ExecutorService frameExecutor = Executors.newSingleThreadExecutor();
     private final AtomicBoolean started = new AtomicBoolean(false);
+    private final AtomicBoolean decodingFrame = new AtomicBoolean(false);
     private final Listener listener;
     private long frameCount;
     private long audioCount;
@@ -102,6 +105,7 @@ public final class NativeCameraController implements WifiCallBack.DeviceStatusIn
             stop();
         }
         cameraExecutor.shutdown();
+        frameExecutor.shutdown();
     }
 
     @Override
@@ -133,33 +137,70 @@ public final class NativeCameraController implements WifiCallBack.DeviceStatusIn
 
     @Override
     public void getData(int dtype, WifiCameraPic wifiCameraPic) {
-        if (wifiCameraPic == null || wifiCameraPic.data == null || wifiCameraPic.data.length == 0) {
-            return;
-        }
-        frameCount++;
-        long now = System.currentTimeMillis();
-        if (now - lastPreviewMs > 100) {
-            lastPreviewMs = now;
-            final Bitmap bitmap = BitmapFactory.decodeByteArray(wifiCameraPic.data, 0, wifiCameraPic.data.length);
-            if (bitmap != null) {
-                String metadata = String.format(Locale.US,
-                        "%dx%d angle %d type %d", wifiCameraPic.width, wifiCameraPic.height, wifiCameraPic.angle, wifiCameraPic.type);
-                postFrame(bitmap, metadata);
+        try {
+            if (wifiCameraPic == null || wifiCameraPic.data == null || wifiCameraPic.data.length == 0) {
+                return;
             }
+            frameCount++;
+            long now = System.currentTimeMillis();
+            if (now - lastPreviewMs <= 100 || !decodingFrame.compareAndSet(false, true)) {
+                postMetrics();
+                return;
+            }
+            lastPreviewMs = now;
+            final byte[] frameBytes = Arrays.copyOf(wifiCameraPic.data, wifiCameraPic.data.length);
+            final int width = wifiCameraPic.width;
+            final int height = wifiCameraPic.height;
+            final float angle = wifiCameraPic.angle;
+            final int type = wifiCameraPic.type;
+            frameExecutor.execute(new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        if (!looksLikeJpeg(frameBytes)) {
+                            postStatus("Stream active; waiting for JPEG preview frame");
+                            return;
+                        }
+                        BitmapFactory.Options options = new BitmapFactory.Options();
+                        options.inPreferredConfig = Bitmap.Config.RGB_565;
+                        Bitmap bitmap = BitmapFactory.decodeByteArray(frameBytes, 0, frameBytes.length, options);
+                        if (bitmap != null) {
+                            String metadata = String.format(Locale.US,
+                                    "%dx%d angle %.1f type %d", width, height, angle, type);
+                            postFrame(bitmap, metadata);
+                        }
+                    } catch (Throwable throwable) {
+                        postStatus("Frame skipped: " + throwable.getClass().getSimpleName());
+                    } finally {
+                        decodingFrame.set(false);
+                    }
+                }
+            });
+            postMetrics();
+        } catch (Throwable throwable) {
+            decodingFrame.set(false);
+            postStatus("Frame callback skipped: " + throwable.getClass().getSimpleName());
         }
-        postMetrics();
     }
 
     @Override
     public void getaudioData(int dtype, WifiCameraPic wifiCameraPic) {
-        audioCount++;
-        postMetrics();
+        try {
+            audioCount++;
+            postMetrics();
+        } catch (Throwable throwable) {
+            postStatus("Audio callback skipped: " + throwable.getClass().getSimpleName());
+        }
     }
 
     @Override
     public void getCameraInfo(int dtype, WifiCameraStatusInfo info) {
-        if (info != null) {
-            postDevice("Battery " + info.battery + "% | charge " + info.isCharge + " | shared " + info.isusedbyother);
+        try {
+            if (info != null) {
+                postDevice("Battery " + info.battery + "% | charge " + info.isCharge + " | shared " + info.isusedbyother);
+            }
+        } catch (Throwable throwable) {
+            postStatus("Status callback skipped: " + throwable.getClass().getSimpleName());
         }
     }
 
@@ -203,5 +244,11 @@ public final class NativeCameraController implements WifiCallBack.DeviceStatusIn
                 listener.onMetrics(frameCount, audioCount);
             }
         });
+    }
+
+    private boolean looksLikeJpeg(byte[] data) {
+        return data.length > 4
+                && (data[0] & 0xff) == 0xff
+                && (data[1] & 0xff) == 0xd8;
     }
 }

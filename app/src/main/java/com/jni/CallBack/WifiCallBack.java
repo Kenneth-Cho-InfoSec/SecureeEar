@@ -92,59 +92,88 @@ public class WifiCallBack {
     }
 
     public int sendpic(Object obj, int i) {
-        WifiCameraPic wifiCameraPic = (WifiCameraPic) obj;
-        this.datag = wifiCameraPic;
-        LogWD.writeMsg(this, 2, "sendpic: type= " + i);
-        DeviceStatusInterface deviceStatusInterface = this.deviceStatusInterface;
-        if (deviceStatusInterface == null) {
-            return 0;
+        try {
+            if (!(obj instanceof WifiCameraPic)) {
+                return 0;
+            }
+            WifiCameraPic wifiCameraPic = (WifiCameraPic) obj;
+            this.datag = wifiCameraPic;
+            LogWD.writeMsg(this, 2, "sendpic: type= " + i);
+            DeviceStatusInterface deviceStatusInterface = this.deviceStatusInterface;
+            if (deviceStatusInterface == null) {
+                return 0;
+            }
+            deviceStatusInterface.getData(i, wifiCameraPic);
+        } catch (Throwable throwable) {
+            LogWD.writeMsg(this, 2, "sendpic skipped: " + throwable.getClass().getSimpleName());
         }
-        deviceStatusInterface.getData(i, wifiCameraPic);
         return 0;
     }
 
     public int sendaudio(Object obj, int i) {
-        WifiCameraPic wifiCameraPic = (WifiCameraPic) obj;
-        this.datag = wifiCameraPic;
-        LogWD.writeMsg(this, 2, "sendpic: type= " + i);
-        DeviceStatusInterface deviceStatusInterface = this.deviceStatusInterface;
-        if (deviceStatusInterface == null) {
-            return 0;
+        try {
+            if (!(obj instanceof WifiCameraPic)) {
+                return 0;
+            }
+            WifiCameraPic wifiCameraPic = (WifiCameraPic) obj;
+            this.datag = wifiCameraPic;
+            LogWD.writeMsg(this, 2, "sendaudio: type= " + i);
+            DeviceStatusInterface deviceStatusInterface = this.deviceStatusInterface;
+            if (deviceStatusInterface == null) {
+                return 0;
+            }
+            deviceStatusInterface.getaudioData(i, wifiCameraPic);
+        } catch (Throwable throwable) {
+            LogWD.writeMsg(this, 2, "sendaudio skipped: " + throwable.getClass().getSimpleName());
         }
-        deviceStatusInterface.getaudioData(i, wifiCameraPic);
         return 0;
     }
 
     public int sendstatus(Object obj, int i) {
-        WifiCameraStatusInfo wifiCameraStatusInfo = (WifiCameraStatusInfo) obj;
-        LogWD.writeMsg(this, 2, "sendstatus: type= " + i);
-        DeviceStatusInterface deviceStatusInterface = this.deviceStatusInterface;
-        if (deviceStatusInterface == null) {
-            return 0;
+        try {
+            if (!(obj instanceof WifiCameraStatusInfo)) {
+                return 0;
+            }
+            WifiCameraStatusInfo wifiCameraStatusInfo = (WifiCameraStatusInfo) obj;
+            LogWD.writeMsg(this, 2, "sendstatus: type= " + i);
+            DeviceStatusInterface deviceStatusInterface = this.deviceStatusInterface;
+            if (deviceStatusInterface == null) {
+                return 0;
+            }
+            deviceStatusInterface.getCameraInfo(i, wifiCameraStatusInfo);
+        } catch (Throwable throwable) {
+            LogWD.writeMsg(this, 2, "sendstatus skipped: " + throwable.getClass().getSimpleName());
         }
-        deviceStatusInterface.getCameraInfo(i, wifiCameraStatusInfo);
         return 0;
     }
 
     public int sendsig(int i, int i2) {
-        LogWD.writeMsg(this, 2, "sendpic: dtype= " + i + " status=" + i2);
-        if (i2 == 2) {
-            this.online = true;
-        }
-        if (i2 == 4 || i2 == 3 || i2 == 1) {
-            this.online = false;
-        }
-        DeviceStatusInterface deviceStatusInterface = this.deviceStatusInterface;
-        if (deviceStatusInterface != null) {
-            deviceStatusInterface.getStatus(i, i2);
+        try {
+            LogWD.writeMsg(this, 2, "sendsig: dtype= " + i + " status=" + i2);
+            if (i2 == 2) {
+                this.online = true;
+            }
+            if (i2 == 4 || i2 == 3 || i2 == 1) {
+                this.online = false;
+            }
+            DeviceStatusInterface deviceStatusInterface = this.deviceStatusInterface;
+            if (deviceStatusInterface != null) {
+                deviceStatusInterface.getStatus(i, i2);
+            }
+        } catch (Throwable throwable) {
+            LogWD.writeMsg(this, 2, "sendsig skipped: " + throwable.getClass().getSimpleName());
         }
         return 0;
     }
 
     public int sendnotifyfile(int i, int i2, int i3, String str) {
-        DeviceStatusInterface deviceStatusInterface = this.deviceStatusInterface;
-        if (deviceStatusInterface != null) {
-            return deviceStatusInterface.sendnotifyfile(i, i2, i3, str);
+        try {
+            DeviceStatusInterface deviceStatusInterface = this.deviceStatusInterface;
+            if (deviceStatusInterface != null) {
+                return deviceStatusInterface.sendnotifyfile(i, i2, i3, str);
+            }
+        } catch (Throwable throwable) {
+            LogWD.writeMsg(this, 2, "sendnotifyfile skipped: " + throwable.getClass().getSimpleName());
         }
         return 0;
     }
