@@ -4,6 +4,13 @@ SecureeEar is a clean Android reconstruction focused on local-only operation for
 
 <img src="docs/assets/secureeear-hero.png" alt="SecureeEar secure ear camera illustration" width="300">
 
+## Repository Branches
+
+- `main`: clean local-only Android reconstruction.
+- `reveng-v1`: imported UseeEar 1.0.062 JADX/decompiled reference.
+- `analysis`: reverse-engineering findings, endpoint review, and risk notes.
+- `rebuild`: imported reconstruction experiment used to validate the clean rebuild path.
+
 ## Security Model
 
 - No cloud APIs.
